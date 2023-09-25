@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- / bootstrap -->
+
+    <!-- style project -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- / style project -->
+
+    <!-- font awesome v-5.15.4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- / font awesome  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ---------- -->
+    <!-- jquery.flipster -->
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+    <!-- ---------- -->
+  </head>
+  <body>
+    <!--header section start here--->
+
+    <section>
+      <header>
+        <!-- top-header -->
+        <div id="top-header">
+          <div class="container">
+            <div class="row">
+              <!-- left-part -->
+              <div class="col-sm-12 col-md-6 col-lg-6 left-part">
+                <span class="text-white">
+                  <i class="fa-solid fa-bullhorn"></i>
+                  whatever you've got in mind _ we've got inside
+                </span>
+              </div>
+              <!-- / left-part -->
+
+              <!-- right-part -->
+              <div class="col-sm-12 col-md-6 right-part">
+                <div class="row">
+                  <div class="icons d-lg-inline-flex justify-content-lg-end">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="#"
+                          ><i class="fa-brands fa-app-store-ios"></i> app
+                          store</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa-brands fa-google-play"></i> google
+                          play</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="drop">
+                      <ul class="d-flex">
+                        <li>
+                          <a
+                            data-bs-toggle="dropdown"
+                            class="dropdown-toggle"
+                            href="#"
+                            >eng</a
+                          >
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a class="dropdown-item text-black" href="#"
+                                >English</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item text-black" href="#"
+                                >Arabic</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a
+                            data-bs-toggle="dropdown"
+                            class="dropdown-toggle"
+                            href="#"
+                            >usd</a
+                          >
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a class="dropdown-item text-black" href="#"
+                                >Dollar</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item text-black" href="#"
+                                >EGP</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- / right-part -->
+            </div>
+          </div>
+        </div>
+        <!-- / top-header -->
+
+        <!-- bottom-header -->
+        <div id="bottom-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7 d-md-flex left-part">
+                <!-- logo  -->
+                <div class="row">
+                  <div class="col-sm-12 image-logo">
+                    <a class="logo" href="#"
+                      ><img src="photos/logo/logo.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+                <!-- / logo -->
+
+                <!-- Search -->
+                <div class="row">
+                  <div class="col-sm-12 my-md-3 search">
+                    <form class="select-input d-flex" action="">
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Product</option>
+                        <option value="1">Supplier</option>
+                        <option value="2">All</option>
+                      </select>
+                      <input
+                        type="text"
+                        class="form-control px-md-5 w-auto"
+                        placeholder="Enter Your Keyword"
+                      />
+                      <button class="btn d-none d-md-block">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!-- / Search -->
+              </div>
+
+              <div
+                class="col-sm-12 col-lg-5 right-part d-flex justify-content-lg-end"
+              >
+                <div class="icon-left d-flex text-uppercase">
+                  <div class="icon">
+                    <button class="btn btn-outline-success my-3">
+                      <i class="fa-solid fa-user"></i>
+                    </button>
+                  </div>
+                  <div class="dropmenu">
+                    <ul>
+                      <li>
+                        <a
+                          data-bs-toggle="dropdown"
+                          class="dropdown-toggle"
+                          href="#"
+                          >my account</a
+                        >
+                        <!-- <li>login / join</li> -->
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item text-black" href="#"
+                              ><i class="fa-solid va fa-user-check"></i> my
+                              account</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-black" href="#"
+                              ><i class="fa-regular va fa-heart"></i> my
+                              wishlist</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-black" href="#"
+                              ><i class="fa-solid va fa-arrows-rotate"></i>
+                              compare</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-black" href="#"
+                              ><i class="fa-solid va fa-check"></i> checkout</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-black" href="#"
+                              ><i class="fa-solid va fa-unlock"></i> login</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item text-black" href="#"
+                              ><i class="fa-solid va fa-user-plus"></i> create
+                              an account</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="icon-right d-flex">
+                    <div class="icon">
+                      <button
+                        class="btn btn-outline-success my-3 mx-4 position-relative"
+                      >
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        <span
+                          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary"
+                          >9
+                        </span>
+                      </button>
+                    </div>
+                    <span class="ed text-uppercase">
+                      <ul class="p-0 m-0">
+                        <li>my cart</li>
+                        <li>35.20 Egp</li>
+                      </ul>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / bottom-header -->
+      </header>
+    </section>
+
+    <!--header section  end here--->
+
+    <!--nav section  start here--->
+
+    <section>
+      <div id="navbar-links" class="bg-dark">
+        <div class="container">
+          <nav
+            class="navbar navbar-expand-lg text-uppercase p-0 navbar-dark bg-dark"
+          >
+            <div class="container">
+
+                 <!-- dropdown categories  -->
+              <div class="categories nav-item dropdown">
+                <a
+                  class="nav-link navbar-brand active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside"
+                  aria-expanded="false"
+                >
+                  categories <i class="fa-solid bar fa-bars"></i>
+                </a>
+
+                <!-- dropdown categories -- women's clothing -->
+                <ul class="dropdown-menu">
+
+                  <li class="dropdown">
+                    <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">women's clothing</a>
+                    <ul class="dropdown-menu">
+                        <div class="row">
+                            <div class="col-sm-12 d-lg-flex">
+                                <div >
+                                    <div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2 p-0">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                </div>
+                                <div >
+                                    <div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                </div>
+                                <div >
+                                    <div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                </div>
+                                
+                            </div>
+                          </div>
+                          <li><hr class="dropdown-divider" /></li>
+                          <li>
+                            <div class="new-collection p-0 mx-4">
+                              <span class="p-4  text-center text-white">
+                                <h3>new collection</h3>
+                                <h4>hot deal</h4>
+                              </span>
+                            </div>
+                          </li>
+                    </ul>
+                  </li>
+
+                   <!-- / dropdown categories -- women's clothing -->
+
+                  
+                  <li>
+                    <a class="dropdown-item" href="#">men's clothing</a>
+                  </li>
+
+                   <!--  dropdown categories -- phones & accessories -->
+                  <li class="dropdown">
+                    <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">phones & accessories</a>
+                    <ul class="dropdown-menu phones">
+                        <div class="row">
+                            <div class="col-sm-12 d-lg-flex">
+                                <div >
+                                    <div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2 p-0">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                      <li class="border-bottom my-3 mx-3"></li>
+                                      <div >
+                                        <div>
+                                            <li>
+                                              <a class="dropdown-item" href="#"
+                                                ><h5 class="mx-2 p-0">categories</h5></a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >WOMEN'CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >MEN CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >PHONES & ACCESSORIES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >JEWELRY & WATCHES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >BAGS & SHOES</a
+                                              >
+                                            </li>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div >
+                                    <div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2 p-0">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                      <li class="border-bottom my-3 mx-3"></li>
+                                      <div >
+                                        <div>
+                                            <li>
+                                              <a class="dropdown-item" href="#"
+                                                ><h5 class="mx-2 p-0">categories</h5></a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >WOMEN'CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >MEN CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >PHONES & ACCESSORIES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >JEWELRY & WATCHES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >BAGS & SHOES</a
+                                              >
+                                            </li>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="new-collection p-0 mx-4">
+                                    <span class="p-4  text-center text-white">
+                                      <h3>new</h3>
+                                      <h4>collection</h4>
+                                    </span>
+                                  </div>
+                            </div>
+                        </div>
+                    </ul>
+                  </li>
+
+                   <!-- / dropdown categories -- phones & accessories -->
+
+                  <li>
+                    <a class="dropdown-item" href="#">computer & office</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">consumer electronics</a>
+                  </li>
+
+                   <!--  dropdown categories -- jewelry & watches -->
+                  <li class="dropdown">
+                    <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">jewelry & watches</a>
+                    <ul class="dropdown-menu">
+                        <div class="row">
+                            <div class="col-sm-12 d-lg-flex">
+                                <div >
+                                    <div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2 p-0">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                      <li class="border-bottom my-3 mx-3"></li>
+                                      <div >
+                                        <div>
+                                            <li>
+                                              <a class="dropdown-item" href="#"
+                                                ><h5 class="mx-2 p-0">categories</h5></a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >WOMEN'CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >MEN CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >PHONES & ACCESSORIES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >JEWELRY & WATCHES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >BAGS & SHOES</a
+                                              >
+                                            </li>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div >
+                                    <div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2 p-0">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                      <li class="border-bottom my-3 mx-3"></li>
+                                      <div >
+                                        <div>
+                                            <li>
+                                              <a class="dropdown-item" href="#"
+                                                ><h5 class="mx-2 p-0">categories</h5></a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >WOMEN'CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >MEN CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >PHONES & ACCESSORIES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >JEWELRY & WATCHES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >BAGS & SHOES</a
+                                              >
+                                            </li>
+                                          </div>
+                                    </div>
+                                </div>
+                                <div >
+                                    <div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2 p-0">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                      <li class="border-bottom my-3 mx-3"></li>
+                                      <div >
+                                        <div>
+                                            <li>
+                                              <a class="dropdown-item" href="#"
+                                                ><h5 class="mx-2 p-0">categories</h5></a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >WOMEN'CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >MEN CLOTHING</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >PHONES & ACCESSORIES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >JEWELRY & WATCHES</a
+                                              >
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item p-0 mx-4" href="#"
+                                                >BAGS & SHOES</a
+                                              >
+                                            </li>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+
+                  </li>
+
+                   <!-- / dropdown categories -- jewelry & watches -->
+                  <li>
+                    <a class="dropdown-item" href="#">bags & shoes</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">view all</a>
+                  </li>
+
+                </ul>
+              </div>
+
+               <!-- / dropdown categories  -->
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+
+                  <a class="nav-link active" href="#">shop</a>
+
+                  <!-- Dropdown menu for women in the link -->
+
+                  <div class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle active"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      women
+                    </a>
+
+                    <ul class="dropdown-menu women">
+
+                     
+                      <div class="row">
+                        <div class="col-sm-12 d-lg-flex">
+                            <div >
+                                <div>
+                                    <li>
+                                      <a class="dropdown-item" href="#"
+                                        ><h5 class="mx-2 p-0">categories</h5></a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >WOMEN'CLOTHING</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >MEN CLOTHING</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >PHONES & ACCESSORIES</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >JEWELRY & WATCHES</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >BAGS & SHOES</a
+                                      >
+                                    </li>
+                                  </div>
+                            </div>
+                            <div >
+                                <div>
+                                    <li>
+                                      <a class="dropdown-item" href="#"
+                                        ><h5 class="mx-2">categories</h5></a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >WOMEN'CLOTHING</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >MEN CLOTHING</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >PHONES & ACCESSORIES</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >JEWELRY & WATCHES</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >BAGS & SHOES</a
+                                      >
+                                    </li>
+                                  </div>
+                            </div>
+                            <div >
+                                <div>
+                                    <li>
+                                      <a class="dropdown-item" href="#"
+                                        ><h5 class="mx-2">categories</h5></a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >WOMEN'CLOTHING</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >MEN CLOTHING</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >PHONES & ACCESSORIES</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >JEWELRY & WATCHES</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-item p-0 mx-4" href="#"
+                                        >BAGS & SHOES</a
+                                      >
+                                    </li>
+                                  </div>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <div class="new-collection p-0 mx-4">
+                          <span class="p-4  text-center text-white">
+                            <h3>new collection</h3>
+                            <h4>hot deal</h4>
+                          </span>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                  <!-- /  Dropdown menu for women in the link -->
+
+                  <!-- Dropdown menu for men in the link -->
+                  <div class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle active"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      men
+                    </a>
+                    <ul class="dropdown-menu men">
+
+                        <div class="row">
+                            <div class="col-sm-12 d-lg-flex">
+                                <div >
+                                    <div>
+                                        <div class="men-1 p-0 mx-4">
+                                            <span class="text-center text-white">
+                                              <h4 class="p-5">men's</h4>
+                                            </span>
+                                          </div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2 p-0">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                </div>
+                                <div >
+                                    <div>
+                                        <div class="men-2 p-0 mx-4">
+                                            <span class="text-center text-white">
+                                              <h4 class="p-5">men's</h4>
+                                            </span>
+                                          </div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2 p-0">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                </div>
+                                <div >
+                                    <div>
+                                        <div class="men-3 p-0 mx-4">
+                                            <span class="text-center text-white">
+                                              <h4 class="p-5">men's</h4>
+                                            </span>
+                                          </div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                </div>
+                                <div >
+                                    <div>
+                                        <div class="men-4 p-0 mx-4">
+                                            <span class="text-center text-white">
+                                              <h4 class="p-5">men's</h4>
+                                            </span>
+                                          </div>
+                                        <li>
+                                          <a class="dropdown-item" href="#"
+                                            ><h5 class="mx-2">categories</h5></a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >WOMEN'CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >MEN CLOTHING</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >PHONES & ACCESSORIES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >JEWELRY & WATCHES</a
+                                          >
+                                        </li>
+                                        <li>
+                                          <a class="dropdown-item p-0 mx-4" href="#"
+                                            >BAGS & SHOES</a
+                                          >
+                                        </li>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </ul>
+                  </div>
+                  <!-- / Dropdown menu for men in the link -->
+
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >sales</a
+                  >
+
+                  <!-- Dropdown menu for pages in the link -->
+                  <div class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle active"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      pages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- / Dropdown menu for pages in the link -->
+
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!--nav section  end here--->
+
+    <!-- slider section  start here--->
+
+    <section class="slider">
+        
+        <div class="slideshow">
+
+            <div class="slideshow-image" style="background-image: url('photos/slider/images/architectureblurbuildingbusiness449559.jpg')">
+                <marquee class="text-uppercase text-white brand" ><h3>Guess - cairo mall - floor 3 - d7</h3></marquee>
+            </div>
+            <div class="slideshow-image" style="background-image: url('photos/slider/images/crowngroupmodernmotion374894.jpg')">
+                <marquee   class="text-uppercase text-white brand"><h3>Dior - cairo mall - floor 4 - d6</h3></marquee>
+            </div>
+            <div class="slideshow-image" style="background-image: url('photos/slider/images/peopleinsidebuilding2610756.jpg')">
+                <marquee  class="text-uppercase text-white brand" ><h3>Chanel - cairo mall - floor 5 - d5</h3></marquee>
+            </div>
+            <div class="slideshow-image" style="background-image: url('photos/slider/images/peoplewalkinginsidebuilding2861656.jpg')">
+                <marquee  class="text-uppercase text-white brand"><h3>zara - cairo mall - floor 6 - d4</h3></marquee>
+            </div>
+            <div class="slideshow-image" style="background-image: url('photos/slider/images/photoofshoppingmall2861655.jpg')">
+                <marquee  class="text-uppercase text-white brand"><h3>Burberry - cairo mall - floor 7 - d3</h3></marquee>
+            </div>
+
+        </div>
+        <!-- arrow animation -->
+    <div class="arrow-position">
+        <div class="arrow ">
+            <span></span>
+            <span></span>
+            <span></span>
+            <!-- asd -->
+            <div class="asd">
+                <video autoplay muted loop src="photos/0925.mp4"></video>
+            </div>
+            <!-- asd -->
+        </div>
+    </div>
+     <!-- / arrow animation -->
+
+     <!-- icon-show -->
+    <div class="menu-show">
+        <div class="icon-show">
+            <span><i class="fa-solid fa-shop"></i> home</span>
+            <span><i class="fa-solid fa-shirt"></i>clothes</span>
+            <span><i class="fa-solid fa-socks"></i>shose</span>
+            <span><i class="fa-solid fa-gifts"></i>gifts</span>
+        </div>
+        <div class="menu d-flex text-start ">
+            <ul>
+                <li><h6>title</h6></li>
+                <li>sud-menu 1</li>
+                <li>sud-menu 2</li>
+                <li>sud-menu 3</li>
+                <li>sud-menu 4</li>
+                <li>sud-menu 5</li>
+                <li>sud-menu 6</li>
+                <li>sud-menu 6</li>
+            </ul>
+            <ul>
+                <li><h6>title</h6></li>
+                <li>sud-menu 1</li>
+                <li>sud-menu 2</li>
+                <li>sud-menu 3</li>
+                <li>sud-menu 4</li>
+                <li>sud-menu 5</li>
+                <li>sud-menu 6</li>
+                <li>sud-menu 6</li>
+            </ul>
+            <ul>
+                <li><h6>title</h6></li>
+                <li>sud-menu 1</li>
+                <li>sud-menu 2</li>
+                <li>sud-menu 3</li>
+                <li>sud-menu 4</li>
+                <li>sud-menu 5</li>
+                <li>sud-menu 6</li>
+                <li>sud-menu 6</li>
+            </ul>
+        </div>
+    </div>
+
+    
+
+    
+    
+
+    <!-- icon-show -->
+
+    </section>
+
+    <!-- slider section  start here--->
+
+    <!-- cards section  start here-->
+    <section id="cards">
+        <main class="my-5">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 card-1">
+                        <div class="card1">
+                            <img class="card-img" src="photos/new-collection/coll-banner.jpg" alt="">
+                            <div class="card-body">
+                                <h3 class="card-title">new</h3>
+                                <h3 class="card-title">collection</h3>
+                                <button class="card-btn"><a href="#"> shop now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 card-2">
+                        <div class="card2">
+                            <img class="card-img" src="photos/new-collection/item2.jpg" alt="">
+                            <div class="card-body">
+                                <button class="card-btn"><a href="#"> <i class="fa-solid fa-magnifying-glass-plus"></i>shop now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 card-2">
+                        <div class="card2">
+                            <img class="card-img" src="photos/new-collection/item3.jpg" alt="">
+                            <div class="card-body">
+                                <button class="card-btn"><a href="#"> <i class="fa-solid fa-magnifying-glass-plus"></i>shop now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 card-2">
+                        <div class="card2">
+                            <img class="card-img" src="photos/new-collection/item4.jpg" alt="">
+                            <div class="card-body">
+                                <button class="card-btn"><a href="#"> <i class="fa-solid fa-magnifying-glass-plus"></i>shop now</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+          </main>
+    </section>
+
+    <!-- cards section  end here-->
+
+    <!-- Advertisements section start here -->
+
+    <section>
+      <div id="Advertisements">
+        <div class="container">
+          <div class="main-title text-center">
+          <h3 class="text-capitalize">Mall shops</h3>
+          <h1 class="text-uppercase">visit US now</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, est dolorem.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
+              <div class="banner">
+                <div class="carouse1">
+                  <ul>
+                    <li><img src="photos/gallary/gl1.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl10.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl11.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl12.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl13.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl14.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl15.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl16.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl17.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl18.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl19.jpg" alt=""></li>
+                    <li><img src="photos/gallary/gl2.jpg" alt=""></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Advertisements section end here -->
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+    </script>
+    <script src="js/jquery.flipster.min.js"></script>
+    <!-- / jquery -->
+
+    <!-- bootstrap.js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+    
+    </script>
+    <!--  /bootstrap.js -->
+  </body>
+</html>
